@@ -4,7 +4,10 @@ import { NavLink } from "./NavLinksElements";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/">Home</NavLink>
+      <NavLink to="/">Testimonials</NavLink>
+      <NavLink to="/">Advisory Board</NavLink>
+      <NavLink to="/">Subscribe</NavLink>
+      <NavLink to="/">Contact Us</NavLink>
     </>
   );
 };
