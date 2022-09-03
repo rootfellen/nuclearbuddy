@@ -4,11 +4,11 @@ import { Container } from "./AppElements";
 
 function App() {
   return (
-    <Container>
-      <Hero>
+    <Hero>
+      <Container>
         <NavBar />
-      </Hero>
-    </Container>
+      </Container>
+    </Hero>
   );
 }
 
