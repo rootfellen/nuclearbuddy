@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const MobileNav = styled.nav`
-  display: flex;
-  background-color: blue;
+  display: none;
+  @media (max-width: 992px) {
+    display: flex;
+    background-color: blue;
+  }
 `;

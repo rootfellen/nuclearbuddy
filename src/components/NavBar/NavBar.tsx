@@ -16,7 +16,7 @@ const NavBar = () => {
           Sign Up
         </NavLink>
       </PersonalNavigation>
-      {/* <MobileNavigation /> */}
+      <MobileNavigation />
     </Navbar>
   );
 };

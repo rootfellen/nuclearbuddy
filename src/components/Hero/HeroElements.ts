@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroSection = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 `;
 
@@ -12,10 +12,19 @@ export const LeftBlock = styled.div`
   top: 0;
   left: 0;
   z-index: -1;
+  @media (max-width: 1300px) {
+    width: 94%;
+  }
+  @media (max-width: 1200px) {
+    width: 93%;
+  }
 `;
 
 export const LeftBlockImg = styled.img`
   width: 100%;
+  @media (max-width: 992px) {
+    width: auto;
+  }
 `;
 export const RightBlockImg = styled.img`
   width: 100%;
@@ -27,6 +36,9 @@ export const RightBlock = styled.div`
   top: 20%;
   height: 50%;
   z-index: -1;
+  @media (max-width: 992px) {
+    display: none;
+  }
 `;
 
 export const Header = styled.header`

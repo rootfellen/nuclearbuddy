@@ -19,3 +19,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+}

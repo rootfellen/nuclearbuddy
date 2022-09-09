@@ -36,8 +36,49 @@ export const NavLink = styled(Link)`
       ? "0.7rem 1.5rem"
       : "0rem"};
   background-color: ${(props) => (props.type == "signup" ? "#09B9CC" : "")};
-  border: ${(props) => (props.type === "login" ? "1px solid #E8878E" : "")};
+  border: ${(props) => (props.type === "login" ? "1px solid #F9A144" : "")};
   border-radius: 7px;
+
+  @media (max-width: 1550px) {
+    margin: 1.2rem;
+  }
+
+  @media (max-width: 1400px) {
+    margin: 1rem;
+  }
+  @media (max-width: 1400px) {
+    padding: ${(props) =>
+      props.type === "login"
+        ? "0.5rem 1rem"
+        : props.type === "signup"
+        ? "0.5rem 1rem"
+        : "0rem"};
+  }
+
+  @media (max-width: 1250px) {
+    font-size: ${(props) =>
+      props.type === "login"
+        ? "1rem"
+        : props.type === "signup"
+        ? "1rem"
+        : "0.9rem"};
+  }
+  @media (max-width: 1250px) {
+    margin: 0.7rem;
+  }
+  @media (max-width: 1100px) {
+    margin: 0.5rem;
+    font-size: ${(props) =>
+      props.type === "login"
+        ? "1rem"
+        : props.type === "signup"
+        ? "1rem"
+        : "0.8rem"};
+  }
 `;
 
-export const PersonalNavigation = styled.div``;
+export const PersonalNavigation = styled.div`
+  @media (max-width: 992px) {
+    display: none;
+  }
+`;
