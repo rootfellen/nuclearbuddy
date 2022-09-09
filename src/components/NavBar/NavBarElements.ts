@@ -2,5 +2,7 @@ import styled from "styled-components";
 
 export const Navbar = styled.nav`
   display: flex;
-  background-color: red;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 70%;
 `;
