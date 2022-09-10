@@ -12,8 +12,12 @@ export const LogoWrapper = styled(Link)`
   @media (max-width: 1300px) {
     flex: 0 1 25%;
   }
+
+  @media (max-width: 1250px) {
+    flex: 0 1 30%;
+  }
   @media (max-width: 1150px) {
-    flex: 0 1 25%;
+    flex: 0 1 28%;
   }
 `;
 
@@ -22,14 +26,6 @@ export const LogoImg = styled.img`
   max-width: 4rem;
   max-height: 4rem;
   padding-right: 1rem;
-  @media (max-width: 1400px) {
-    width: 2rem;
-    height: 2rem;
-  }
-  @media (max-width: 1250px) {
-    width: 1rem;
-    height: 1rem;
-  }
 `;
 export const LogoText = styled.h1`
   color: #fff;
@@ -40,6 +36,9 @@ export const LogoText = styled.h1`
   }
   @media (max-width: 1150px) {
     font-size: 1.5rem;
+  }
+  @media (max-width: 992px) {
+    font-size: 3rem;
   }
 
   span {

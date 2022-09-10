@@ -36,6 +36,7 @@ export const RightBlock = styled.div`
   top: 20%;
   height: 50%;
   z-index: -1;
+
   @media (max-width: 992px) {
     display: none;
   }

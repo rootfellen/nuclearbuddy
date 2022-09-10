@@ -64,15 +64,15 @@ export const NavLink = styled(Link)`
         : "0.9rem"};
   }
   @media (max-width: 1250px) {
-    margin: 0.7rem;
+    margin: 0.5rem;
   }
   @media (max-width: 1100px) {
     margin: 0.5rem;
     font-size: ${(props) =>
       props.type === "login"
-        ? "1rem"
+        ? "0.9rem"
         : props.type === "signup"
-        ? "1rem"
+        ? "0.9rem"
         : "0.8rem"};
   }
 `;
